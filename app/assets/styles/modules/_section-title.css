@@ -1,9 +1,9 @@
 .section-title{
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 300;
-	margin-bottom: 4rem;
-
+	margin-bottom: 3rem;
+	
 	@mixin atSmall{
 		margin-bottom: 2rem;
 	}
@@ -11,8 +11,9 @@
 	strong{
 		font-weight: 400;
 		}
-
-
+	&--blue{
+		color: $mainBlue;
+	}
 	&__icon{
 		display: block;
 		margin-right: auto;
@@ -22,6 +23,12 @@
 			margin-right: 2rem;
 			display: inline-block;
 			margin-bottom: -.5rem;
+		}
+	}
+	&__icon--lower{
+		margin-bottom: 0;
+		@mixin atSmall{
+			margin-bottom: -1rem;
 		}
 	}
 

@@ -12,6 +12,9 @@
 	&--orange{
 		color: $mainOrange;
 	}
+	&--blue{
+		color: $mainBlue;
+	}
 	&--narrow{
 		max-width: 400px;
 		margin-left: auto;

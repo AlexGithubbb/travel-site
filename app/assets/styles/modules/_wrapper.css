@@ -6,7 +6,14 @@
 	max-width: 1136px;
 	margin-left: auto;
 	margin-right: auto;
-	
+	&--no-padding-until-medium{
+		padding-left: 0px;
+		padding-right: 0px;
+		@mixin atMedium{
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
 	&--medium{
 		max-width: 950px;
 	}
